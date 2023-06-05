@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JsonPlaceHolderViewController" customModule="CleanTableView" customModuleProvider="target">
+            <connections>
+                <outlet property="tableViewJsonPlaceHolder" destination="Zn2-RR-yN7" id="0gR-Zg-DwQ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Json Place Holder View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="npg-HY-mVw">
+                    <rect key="frame" x="29" y="68" width="365" height="41"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Zn2-RR-yN7">
+                    <rect key="frame" x="20" y="129" width="374" height="733"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Zn2-RR-yN7" secondAttribute="trailing" constant="20" id="8WS-3J-Xqo"/>
+                <constraint firstItem="npg-HY-mVw" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="Cx3-kd-twX"/>
+                <constraint firstItem="Zn2-RR-yN7" firstAttribute="leading" secondItem="npg-HY-mVw" secondAttribute="leading" id="Gzg-RK-L2r"/>
+                <constraint firstItem="npg-HY-mVw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="29" id="QcX-sy-8im"/>
+                <constraint firstItem="Zn2-RR-yN7" firstAttribute="top" secondItem="npg-HY-mVw" secondAttribute="bottom" constant="20" id="UIM-tb-yNv"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Zn2-RR-yN7" secondAttribute="bottom" id="WN5-9j-OAK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="npg-HY-mVw" secondAttribute="trailing" constant="20" id="c6v-74-l2S"/>
+                <constraint firstItem="Zn2-RR-yN7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="exT-UG-be4"/>
+                <constraint firstItem="Zn2-RR-yN7" firstAttribute="trailing" secondItem="npg-HY-mVw" secondAttribute="trailing" id="umG-ML-IsX"/>
+            </constraints>
+            <point key="canvasLocation" x="33" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
